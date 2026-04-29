@@ -1,7 +1,17 @@
-let puntosBase = 100;
-let bonus = 50;
-let penalizacion = 20;
-let puntosTotales = puntosBase + bonus - penalizacion;
+const input = document.getElementById("dato");
+const boton = document.getElementById("btn");
+const mensaje = document.getElementById("mensaje");
 
-console.log(puntosTotales);
+boton.addEventListener("click", function () {
+ const valor = input.value;
+ const numero = Number(valor);
+ const resultado = numero + 10;
+ mensaje.textContent = resultado;
+
+ console.log("resultado: ", resultado);
+
+ // Convertir valor a número
+ // Sumar 10
+ // Mostrar el resultado en pantalla
+});
 

@@ -4,11 +4,19 @@ const mensaje = document.getElementById("mensaje");
 
 boton.addEventListener("click", function () {
  const valor = input.value;
- const edad = Number(valor);
- if (edad >= 13) {
-    mensaje.textContent = "Puede jugar";
- } else {
-    mensaje.textContent = "No puede jugar";
+ const vida = Number(valor);
+
+ if (vida > 70) {
+    mensaje.textContent = "Jugador en buen estado";
  }
+ if (vida <= 70 && vida >= 30) {
+    mensaje.textContent = "Jugador herido";  
+ }
+ if (vida < 30) {
+    mensaje.textContent = "Jugador en peligro";
+ }
+if (vida <=0) {
+    mensaje.textContent = "Game Over";
+}
 });
 

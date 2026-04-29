@@ -1,8 +1,7 @@
-const nombre = "Luna";
-let edad = 18;
-let vida = 100;
-let puntaje = 0;
-let estaActivo = true;
+let puntosBase = 100;
+let bonus = 50;
+let penalizacion = 20;
+let puntosTotales = puntosBase + bonus - penalizacion;
 
-console.log(nombre, edad, vida, puntaje, estaActivo);
+console.log(puntosTotales);
 

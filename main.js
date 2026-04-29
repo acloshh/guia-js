@@ -4,14 +4,11 @@ const mensaje = document.getElementById("mensaje");
 
 boton.addEventListener("click", function () {
  const valor = input.value;
- const numero = Number(valor);
- const resultado = numero + 10;
- mensaje.textContent = resultado;
-
- console.log("resultado: ", resultado);
-
- // Convertir valor a número
- // Sumar 10
- // Mostrar el resultado en pantalla
+ const edad = Number(valor);
+ if (edad >= 13) {
+    mensaje.textContent = "Puede jugar";
+ } else {
+    mensaje.textContent = "No puede jugar";
+ }
 });
 

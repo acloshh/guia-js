@@ -4,7 +4,6 @@ const mensaje = document.getElementById("mensaje");
 
 const inventario = ["espada", "pocion", "llave", "escudo", "mapa"]
 
-console.log("Inventario:", inventario);
-console.log("El objeto es: ", inventario[0]);
-console.log("El objeto es: ", inventario[4]);
-console.log("La cantidad de objetos en el inventario es: ", inventario.length);
+for (let i = 0; i < inventario.length; i++) {
+    console.log(inventario[i]);
+}

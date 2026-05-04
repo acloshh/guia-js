@@ -2,8 +2,13 @@ const input = document.getElementById("dato");
 const boton = document.getElementById("btn");
 const mensaje = document.getElementById("mensaje");
 
-const vidaTotal = personajes.reduce((acumulador, personaje) => {
- return acumulador + personaje.vida;
-}, 0);
 
-console.log(vidaTotal);
+boton.addEventListener("click", function() {
+    const valor = input.value;
+    mensaje.textContent = "Bienvenido a la guía de JavaScript";
+    mensaje.style.color = "blue";
+
+});
+
+  
+

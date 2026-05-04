@@ -6,6 +6,7 @@ let puntos = 0;
 boton.addEventListener("click", function() {
     const valor = input.value;
     mensaje.textContent = puntos+10;
+    puntos += 10;
 
 });
 

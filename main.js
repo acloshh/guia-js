@@ -2,8 +2,8 @@ const input = document.getElementById("dato");
 const boton = document.getElementById("btn");
 const mensaje = document.getElementById("mensaje");
 
-const nombres = personajes.map((personaje) => {
- return personaje.nombre;
+const personajeEncontrado = personajes.find((personaje) => {
+ return personaje.nombre == "Kai";
 });
 
-console.log(nombres);
+console.log(personajeEncontrado);

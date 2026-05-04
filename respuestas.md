@@ -1,17 +1,15 @@
 /* Ejercicio 27
 
-¿Cuándo usarías let?       
+¿Qué se muestra primero?
 
- Se usa let cuando la variable cambia de valor seguido o es una variable no definida por defecto.
+en este ejercicio no entendi muy bien, porque parece que el let nombre = "Global" no forma parte del codigo de ejemplo, pero teniendo en cuenta que si, se muestra primero la palabra "Local"
 
+¿Qué se muestra después?
 
-¿Cuándo usarías const?
+Se muestra despues la palabra "global"
 
-Se usa const cuando la variable no cambia nunca y esta predefinida.
+¿Por qué?
 
-
-¿Por qué actualmente se recomienda evitar var?
-
-Var es una opcion vieja a Let, asi que basicamente se recomienda usar let ya que es mas nueva y por ende la opcion por defecto de muchos lenguajes de programacion
+porque el programa primero muestra lo que esta dentro de la funcion mostrarNombre, y una vez que termine lo demas sigue mostrando todo lo que sigue por fuera.
 
 */
